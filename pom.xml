@@ -10,4 +10,12 @@
     <name>Ardhian</name>
     <description>Ardhian</description>
     <modelVersion>4.0.0</modelVersion>
+
+    <dependencyManagement>
+        <dependency>
+            <groupId>org.wso2.appfactory</groupId>
+            <artifactId>php-archetype</artifactId>
+            <version>2.1.0</version>
+        </dependency>
+	</dependencyManagement>
 </project>
